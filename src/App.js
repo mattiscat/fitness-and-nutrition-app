@@ -26,11 +26,11 @@ function App() {
       }) 
 
       return [
-        {recipes} //IMPORTANT: the function must return something or nothing will happen
+        {recipes} 
       ]
     }
   
-  //onSearch prop passed to child. the child component can now use the function
+  
   return ( 
     <>
       <NewRecipeForm onSearch={getRecipe}/> 
@@ -52,4 +52,4 @@ function App() {
 
 export default App;
 
-//TODOS: create a component for the list items and the full list structure. add some css to make it look nice (each recipe gets its own container and the display is grid)
+
